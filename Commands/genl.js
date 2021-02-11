@@ -36,7 +36,7 @@ default:
     var embed = new discord.MessageEmbed()
     .setColor("RANDOM")
     .setThumbnail(Settings.thumbnail)
-    .addField("License", JSON.parse(data)[0])
+    .addField("License", JSON.parse(data)["0"])
     .addField("Days", days)
     .addField("Level", level)
     message.channel.send(embed);
