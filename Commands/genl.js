@@ -30,7 +30,7 @@ case "Days maximum reached; Maximum: 9999!":
 message.reply(`:x: | Maximum 9994 Days`)
 break;
 case "Your data must be numeric!":
-message.reply(`:white_check_mark: | Invalid Data!`)
+message.reply(`:x: | Invalid Data!`)
 break;
 default:
     var embed = new discord.MessageEmbed()
