@@ -28,9 +28,6 @@ break;
 case "Not set":
 message.reply(`:x: | Couldn't Find That User HWID!`)
 break;
-case "HWID has been succesfully reset":
-message.reply(`:white_check_mark: | Done!`)
-break;
 default:
     var embed = new disc.MessageEmbed()
     .setColor("RANDOM")
