@@ -1,7 +1,7 @@
 {
     "authkey": "APP Auth Key",
     "thumbnail": "Picture URL",
-    "prefix": "BOT Preifx",
+    "prefix": "BOT Prefix",
     "token": "BOT Token",
     "supportrole": "Suport Role ID",
     "apikey": "API Key For Premium Members",
